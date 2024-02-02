@@ -1,0 +1,62 @@
+https://github.com/elidianaandrade/dio-curso-git-github
+https://github.com/rondinelli/getting-started-with-git-and-github
+
+git config --global user.name "BrunoVieiraSantana"
+git config --global user.email brunonewdev@gmail.com
+
+git config --global init.defaultBranch main
+
+git config --global credential.helper store or cache
+
+git clone https://github.com/BrunoVieiraSantana/Restic-10.git repo-clone
+
+git clone 
+
+git pull
+
+mkdir repo-local
+cd repo-local
+git init
+
+git remote add origin url
+git push -u origin main
+
+
+git remote add origin https://github.com/BrunoVieiraSantana/repo-local.git
+
+git clone https://github.com/BrunoVieiraSantana/Restic-10.git --branch feature-1 --single-branch
+
+touch test.md
+git status
+
+readme.so
+
+git add
+git commit -m "commit inicial"
+git log
+
+echo resumos/ > .gitignore
+
+.gitkeep
+
+git add .
+
+apagar diretorio
+rm -rf .git
+
+git restore Test,md
+
+git log
+
+git commit --amend -m "modificando"
+
+git reset --soft
+git reset --mixed
+git reset --hard
+
+git reflog
+
+git reset resumos/nomedoarquivo.md
+git reset --staged resumos/nomedoarquivo.md
+
+git checkout -b develop
